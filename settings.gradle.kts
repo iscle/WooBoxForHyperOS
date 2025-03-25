@@ -16,9 +16,9 @@ dependencyResolutionManagement {
     repositories {
         google()
         mavenCentral()
+        maven("https://api.xposed.info/")
     }
 }
 
 rootProject.name = "WooBoxForHyperOS"
 include(":app")
-include(":xposed")

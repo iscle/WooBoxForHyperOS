@@ -1,6 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string-array name="xposed_scope">
-        <item>com.google.android.projection.gearhead</item>
+        <item>android</item>
+        <item>com.miui.securitycenter</item>
+        <item>com.android.systemui</item>
+        <item>com.miui.powerkeeper</item>
+        <item>com.miui.home</item>
+        <item>com.miui.mediaeditor</item>
+        <item>com.android.updater</item>
+        <item>com.android.settings</item>
+        <item>com.android.thememanager</item>
+        <item>com.miui.screenshot</item>
+        <item>com.milink.service</item>
     </string-array>
 </resources>
