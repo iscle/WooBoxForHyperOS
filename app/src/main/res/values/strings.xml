@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">WooBox for HyperOS</string>
+    <string name="short_app_name">WooBox</string>
     <string name="xposed_description">Customization tool for HyperOS</string>
 </resources>
