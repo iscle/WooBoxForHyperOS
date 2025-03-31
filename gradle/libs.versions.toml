@@ -9,13 +9,12 @@ espressoCore = "3.6.1"
 lifecycleRuntimeKtx = "2.8.7"
 activityCompose = "1.10.1"
 composeBom = "2024.09.00"
-appcompat = "1.7.0"
-material = "1.12.0"
-annotationJvm = "1.9.1"
+navigationCompose = "2.8.9"
 timber = "5.0.1"
 
 [libraries]
 androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
+androidx-navigation-compose = { module = "androidx.navigation:navigation-compose", version.ref = "navigationCompose" }
 timber = { module = "com.jakewharton.timber:timber", version.ref = "timber" }
 xposed-api = { group = "de.robv.android.xposed", name = "api", version.ref = "api" }
 junit = { group = "junit", name = "junit", version.ref = "junit" }

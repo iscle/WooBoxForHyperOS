@@ -4,6 +4,7 @@ import com.github.iscle.wooboxforhyperos.data.WooBoxPreferences
 import com.github.iscle.wooboxforhyperos.hooks.AndroidHook
 import com.github.iscle.wooboxforhyperos.hooks.BaseHook
 import com.github.iscle.wooboxforhyperos.hooks.SecurityCenterHooks
+import com.github.iscle.wooboxforhyperos.hooks.SettingsHook
 import de.robv.android.xposed.IXposedHookLoadPackage
 import de.robv.android.xposed.IXposedHookZygoteInit
 import de.robv.android.xposed.callbacks.XC_LoadPackage
@@ -11,7 +12,8 @@ import de.robv.android.xposed.callbacks.XC_LoadPackage
 class MainHook : IXposedHookZygoteInit, IXposedHookLoadPackage {
     private val hooks: List<BaseHook> = listOf(
         AndroidHook,
-        SecurityCenterHooks
+        SecurityCenterHooks,
+        SettingsHook
     )
 
     override fun initZygote(startupParam: IXposedHookZygoteInit.StartupParam) {

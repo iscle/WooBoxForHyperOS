@@ -22,4 +22,3 @@ dependencyResolutionManagement {
 
 rootProject.name = "WooBoxForHyperOS"
 include(":app")
-include(":blockmiui")
